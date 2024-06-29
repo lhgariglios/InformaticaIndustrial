@@ -12,7 +12,6 @@
   <NodeList>
     <Node name="Application">
       <Node name="PLC_PRG">
-        <Node name="CAMINHAO" type="T_BOOL" access="Read" />
         <Node name="CAMINHAO_C" type="T_BOOL" access="Read" />
         <Node name="CAMINHAO_S" type="T_BOOL" access="Read" />
         <Node name="CARR_MAN" type="T_BOOL" access="Read" />
@@ -24,13 +23,21 @@
         <Node name="I_AL_03" type="T_BOOL" access="ReadWrite" />
         <Node name="I_C_AL_01" type="T_BOOL" access="Read" />
         <Node name="I_C_AL_02" type="T_BOOL" access="Read" />
+        <Node name="I_C_AS_01" type="T_REAL" access="Read" />
+        <Node name="I_C_AS_02" type="T_REAL" access="Read" />
         <Node name="I_C_MO_01" type="T_REAL" access="Read" />
         <Node name="I_C_TR_01" type="T_BOOL" access="Read" />
         <Node name="I_C_TR_02" type="T_BOOL" access="Read" />
         <Node name="I_CAMIHAO" type="T_BOOL" access="Read" />
+        <Node name="I_CAMINHAO_C" type="T_BOOL" access="Read" />
+        <Node name="I_CAMINHAO_S" type="T_BOOL" access="Read" />
         <Node name="I_CAPACIDADE" type="T_REAL" access="ReadWrite" />
         <Node name="I_CHEIO_MO_01" type="T_BOOL" access="Read" />
         <Node name="I_GRAOS" type="T_BOOL" access="Read" />
+        <Node name="I_H_AS_01" type="T_BOOL" access="Read" />
+        <Node name="I_H_AS_02" type="T_BOOL" access="Read" />
+        <Node name="I_L_AS_01" type="T_BOOL" access="Read" />
+        <Node name="I_L_AS_02" type="T_BOOL" access="Read" />
         <Node name="I_LIGADO_AL_03" type="T_BOOL" access="Read" />
         <Node name="I_LIGADO_TR_02" type="T_BOOL" access="Read" />
         <Node name="I_MG_01" type="T_BOOL" access="ReadWrite" />
@@ -41,6 +48,9 @@
         <Node name="I_TR_02" type="T_BOOL" access="ReadWrite" />
         <Node name="I_V_AS_01" type="T_BOOL" access="ReadWrite" />
         <Node name="I_V_AS_02" type="T_BOOL" access="ReadWrite" />
+        <Node name="I_VAGAO" type="T_BOOL" access="Read" />
+        <Node name="I_VAGAO_C" type="T_BOOL" access="Read" />
+        <Node name="I_VAGAO_S" type="T_BOOL" access="Read" />
         <Node name="I_VAZIO_AL_01" type="T_BOOL" access="Read" />
         <Node name="I_VAZIO_AL_02" type="T_BOOL" access="Read" />
         <Node name="I_VAZIO_TR_01" type="T_BOOL" access="Read" />
