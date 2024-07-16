@@ -3,5 +3,5 @@ Trabalho apresentado a disciplina de Informática Industrial (2024/1) do curso d
 
 Integrantes:
 
-  *Luan Gabriel Cardoso Pinheiro
-  *Luiz Henrique Gariglio dos Santos
+  * Luan Gabriel Cardoso Pinheiro
+  * Luiz Henrique Gariglio dos Santos
